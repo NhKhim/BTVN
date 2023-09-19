@@ -1,0 +1,20 @@
+#include iostream
+
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    cout  Nhập số nguyên thứ 1 ; cin  a;
+    cout  Nhập số nguyên thứ 2 ; cin  b;
+    cout  Nhập số nguyên thứ 3 ; cin  c;
+     Tim gtln
+    int max = a; if (max  b) max = b; if(max  c) max = c;
+     Tim gtnn 
+    int min = a; if (min  b) min = b; if(min  c) min = c;
+    cout  Giá trị lớn nhất   max  n;
+    cout  Giá trị nhỏ nhất   min;
+    
+
+    return 0;
+}
