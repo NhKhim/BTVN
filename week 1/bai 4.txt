@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    int x; cout << "Nhập giá trị của x: "; cin >> x;
+    cout << "Giá trị của y2 là: " << (sin(M_PI * pow(x,2)) + sqrt(pow(x,2) + 1)) / (exp(2*x) + cos(M_PI/4*x));
+
+    return 0;
+}

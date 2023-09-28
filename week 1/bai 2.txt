@@ -1,0 +1,17 @@
+#include <iostream>
+
+
+using namespace std;
+
+char upper(char c){
+    return char(c - 32);
+}
+
+int main()
+{
+    char c; cout << "Nhập kí tự: "; cin >> c;
+    cout << "Kí tự hoa: " << upper(c);
+    
+    return 0;
+}
+
